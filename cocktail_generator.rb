@@ -4,7 +4,7 @@ require 'sinatra'
 get '/' do
   liquors = ["tequila", "vodka"]
   citrus = ["lime juice", "lemon juice"]
-	sweets = ["agave syrup", "simple syrup"]
+  sweets = ["agave syrup", "simple syrup"]
   default_portion = 0.75
   ratio = [1,1,2]
   amounts = ratio.map {|r| r*default_portion}
